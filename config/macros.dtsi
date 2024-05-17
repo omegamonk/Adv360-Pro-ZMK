@@ -1,15 +1,3 @@
-macro_alt-shift-tab: macro_alt-shift-tab{
-compatible = "zmk,behavior-macro";
-label = "macro_alt-shift-tab";
-#binding-cells = <0>;
-bindings = <&kp LALT>, <&kp LSHIFT>, <&kp TAB>;
-};
-macro_alt-tab: macro_alt-tab{
-compatible = "zmk,behavior-macro";
-label = "macro_alt-tab";
-#binding-cells = <0>;
-bindings = <&kp LALT>, <&kp TAB>;
-};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
